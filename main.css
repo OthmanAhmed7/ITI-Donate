@@ -1,0 +1,261 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
+    "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1080px;
+  margin-inline: auto;
+  padding-top: 2rem;
+  padding-bottom: 1.33rem;
+  padding-inline: 1rem;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1080px;
+  margin-inline: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-inline: 1rem;
+}
+
+/* Start Nav Bar */
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  color: black;
+  font-weight: 500;
+}
+
+.active-link a {
+  border-bottom: 2px solid orangered;
+  color: orangered;
+  padding-block: 1.55rem;
+}
+
+.nav-links a:hover {
+  border-bottom: 2px solid orangered;
+  color: orangered;
+  padding-block: 1.55rem;
+}
+
+/* End Nav Bar */
+
+/* Start Hero */
+
+.hero-img {
+  background-image: url(/website_images/hero.jpg);
+  background-size: cover;
+  width: 100vw;
+  position: relative;
+}
+
+.shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 40%;
+  z-index: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-top: 5rem;
+  padding-bottom: 1.5rem;
+  z-index: 10;
+}
+
+.hero-header {
+  font-size: 6rem;
+  color: white;
+  line-height: 2.8rem;
+  font-weight: 500;
+}
+
+.hero-header-2 {
+  font-size: 2.7rem;
+}
+
+.hero-text {
+  color: white;
+  width: 67%;
+  font-size: 1.125rem;
+}
+
+.btn-container {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+.primary-btn {
+  padding-inline: 3rem;
+  padding-block: 1rem;
+  background-color: orangered;
+  outline: none;
+  border: 2px solid orangered;
+  border-radius: 23px;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.secondary-btn {
+  padding-inline: 3rem;
+  padding-block: 1rem;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid orangered;
+  border-radius: 23px;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.hero-numbers {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.active-number {
+  color: orangered;
+}
+
+.right-btn {
+  padding: 1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orangered;
+  z-index: 10;
+}
+
+.right-arrow {
+  width: 2rem;
+  color: white;
+  font-weight: 600;
+}
+
+/* End Hero */
+
+/* Start Option */
+.active-card {
+  text-align: center;
+  color: white;
+  padding: 3rem;
+  background-color: orangered;
+  flex: 1;
+  border-radius: 25px;
+}
+
+.option-card {
+  text-align: center;
+  color: black;
+  padding: 3rem;
+  background-color: darkgray;
+  flex: 1;
+  border-radius: 25px;
+}
+
+.option-card:hover {
+  background-color: orangered;
+  color: white;
+}
+
+.card-header {
+  margin-block: 1rem;
+  font-weight: 500;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+/* End Option */
+
+/* Start About */
+.about-img {
+  background-image: url(/website_images/welcome-bg.jpg);
+  background-size: cover;
+  width: 100vw;
+  position: relative;
+  background-position: center;
+}
+
+.about-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(21, 21, 21, 0.9);
+  opacity: 95%;
+  z-index: 0;
+}
+
+.about-content {
+  z-index: 10;
+  flex: 1;
+}
+
+.about-header {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 500;
+}
+
+.about-underline {
+  height: 4px;
+  width: 5rem;
+  background-color: orangered;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.about-text {
+  font-size: 0.9rem;
+  color: darkgray;
+  margin-bottom: 3rem;
+  line-height: 1.5rem;
+}
+
+.about-image {
+  z-index: 10;
+  flex: 1;
+}
+/* End About */
