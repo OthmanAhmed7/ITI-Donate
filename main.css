@@ -41,7 +41,9 @@ a {
   padding-inline: 1rem;
 }
 
-/* Start Nav Bar */
+/*------------------------------
+------------- Start Nav Bar ----
+----------------------------- */
 
 .nav-links {
   list-style: none;
@@ -63,9 +65,13 @@ a {
   padding-block: 1.55rem;
 }
 
-/* End Nav Bar */
+/*------------------------------
+------------- End Nav Bar ------
+----------------------------- */
 
-/* Start Hero */
+/*------------------------------
+------------- Start Hero -------
+----------------------------- */
 
 .hero-img {
   background-image: url(/website_images/hero.jpg);
@@ -171,9 +177,14 @@ a {
   font-weight: 600;
 }
 
-/* End Hero */
+/*------------------------------
+------------- End Hero ---------
+----------------------------- */
 
-/* Start Option */
+/*------------------------------
+------------- Start Option -----
+----------------------------- */
+
 .active-card {
   text-align: center;
   color: white;
@@ -206,9 +217,15 @@ a {
   font-size: 0.9rem;
   line-height: 1.5rem;
 }
-/* End Option */
 
-/* Start About */
+/*------------------------------
+------------- End Option -------
+----------------------------- */
+
+/*------------------------------
+------------- Start About ------
+----------------------------- */
+
 .about-img {
   background-image: url(/website_images/welcome-bg.jpg);
   background-size: cover;
@@ -258,4 +275,7 @@ a {
   z-index: 10;
   flex: 1;
 }
-/* End About */
+
+/*------------------------------
+------------- End About --------
+----------------------------- */
